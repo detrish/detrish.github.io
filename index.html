@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Premier League</title>
+    <script src="js/jquery-3.5.1.min.js"></script>  
+    <meta name="description" content="Premier League News" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="/asset/icon.png">
+    <meta name="theme-color" content="#45046a" />
+
+    <!-- Favicon Website dan IOS -->
+    <link rel="shortcut icon" href="/asset/logo.png">
+    <link rel="apple-touch-icon" href="/asset/logo.png">
+    <script src="/js/loader.js"></script>
+
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav class="blue-grey darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container"><i class="material-icons">sports_soccer</i>Premier League</a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">&#9776;</a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <main>
+      <div class="progress" id="PreLoaderBar">
+        <div class="indeterminate"></div>
+      </div>    
+      <div class="container" id="body-content"></div>
+    </main>
+
+    <div class="container" id="body-content"></div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/pushSW.js"></script>
+    <script src="js/regisSW.js"></script>
+
+  <!-- Footer -->
+  <footer class="page-footer blue-grey darken-4">   
+    <div class="footer-copyright center-align">
+      <div class="container">
+        <i class="medium material-icons">portrait</i> 
+        <p>2020 Premier League - Ade Tris Hidayat</p>          
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer --> 
+
+  </body>
+</html>

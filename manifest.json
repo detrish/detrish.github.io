@@ -1,0 +1,33 @@
+{
+    "name": "Premier League News",
+    "gcm_sender_id": "768322526620",
+    "short_name": "Premier",
+    "description": "Aplikasi Premier League News",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#45046a",
+    "theme_color": "#45046a",
+    "icons": [
+        {
+            "src": "/asset/icon.png",
+            "sizes": "1200x1200",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "/asset/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        
+        {
+            "src": "/asset/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        
+    ]
+}
